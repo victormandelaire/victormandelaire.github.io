@@ -1,0 +1,19 @@
+
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+
+header.theme-dark   { background-image : linear-gradient(black,#03302e); }
+
+header.theme-dark  h1 { color: var(--sky-400); }
+
+section.theme-dark   { background-image : linear-gradient(#03302e,#096461); }
+
+footer.theme-dark   { background-image : linear-gradient(#096461, #620e7c); }
+
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+
+.footer-links {
+    color: black;
+}

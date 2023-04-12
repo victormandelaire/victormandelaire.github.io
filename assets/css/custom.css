@@ -1,13 +1,13 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #14142c }
 
-header.theme-dark   { background-image : linear-gradient(black,#03302e); }
+header.theme-dark   { background-image : linear-gradient(#1a263f,#2e2d64ce); }
 
 header.theme-dark  h1 { color: var(--sky-400); }
 
-section.theme-dark   { background-image : linear-gradient(#03302e,#096461); }
+section.theme-dark   { background-image : linear-gradient(#2e2d64ce, #4c4ac5ce); }
 
-footer.theme-dark   { background-image : linear-gradient(#096461, #620e7c); }
+footer.theme-dark   { background-color :#14142c; }
 
 
 
@@ -16,4 +16,8 @@ header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 
 .footer-links {
     color: black;
+}
+
+.theme-dark p, .theme-dark li {
+    color: var(--slate-100);
 }
